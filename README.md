@@ -441,6 +441,10 @@ set your Schedule as you want.
 ```
 # \connect to postgres db
 
+su - postgres
+
+psql
+
 db=
 
 # terminate all connection to the db
@@ -453,7 +457,7 @@ WHERE
     datname = 'resolvedb';
 
 
-# rename
+# rename if needed
 ALTER DATABASE resolvedb RENAME TO resolvedbold ;
 ```
 
