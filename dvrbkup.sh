@@ -35,7 +35,7 @@ else
     # zip .sql dump
     zip "$filenamezip" "$filename"
     # keep only the last 12 versions
-    ls -t /backup/*.sql.zip 2>/dev/null | awk 'NR>12' | xargs rm -f
+    ls -t "$OUTDIR"*.sql.zip 2>/dev/null | awk 'NR>12' | xargs rm -f
     # remove .sql files
     rm $OUTDIR*.sql
 fi
