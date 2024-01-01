@@ -35,7 +35,9 @@ Our studio has been utilizing this robust solution since 2019, and it has consis
 Integrated with existing storage server (TrueNAS core)
 
 
-NB: We will use PostgreSQL v 11.21 instead the recommended  9.5.3 by BMD, for compatibility reason on FreeBSD \
+NB: We will use PostgreSQL v 11.21 instead the recommended  9.5.3 by BMD up to the version DVR 17, for compatibility reason on FreeBSD
+For DVR +18 BMD recommended postgreSQL v13
+\
 
 
 **We highly suggest to use a thick jail and not a tiny jail** 
