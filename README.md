@@ -36,7 +36,7 @@ Integrated with existing storage server (TrueNAS core)
 
 
 NB: We will use PostgreSQL v 11.21 instead the recommended  9.5.3 by BMD up to the version DVR 17, for compatibility reason on FreeBSD
-For DVR +18 BMD recommended postgreSQL v13
+For DVR +18 BMD recommended postgreSQL v13 (pkg install postgresql13-server-13.12)
 \
 
 
